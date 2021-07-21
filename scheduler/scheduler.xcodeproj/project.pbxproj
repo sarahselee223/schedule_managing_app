@@ -103,7 +103,6 @@
 				BFEE40E617C7205C2412D674 /* Pods-schedulerTests.debug.xcconfig */,
 				3668C61A9117D8F09E8A1CF6 /* Pods-schedulerTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -561,7 +560,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.sarahselee.test.scheduler;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sarahselee.testScheduler;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -581,7 +580,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.sarahselee.test.scheduler;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sarahselee.testScheduler;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
