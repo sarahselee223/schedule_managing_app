@@ -40,6 +40,7 @@
 
 /* Begin PBXFileReference section */
 		1BC6CC80DA2F5BB050C6DDEB /* Pods-scheduler-schedulerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-scheduler-schedulerUITests.release.xcconfig"; path = "Target Support Files/Pods-scheduler-schedulerUITests/Pods-scheduler-schedulerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		25662C2126AD81EB0057E911 /* testOnly.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = testOnly.md; sourceTree = "<group>"; };
 		258290CD861B36414F8BD548 /* Pods-scheduler.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-scheduler.release.xcconfig"; path = "Target Support Files/Pods-scheduler/Pods-scheduler.release.xcconfig"; sourceTree = "<group>"; };
 		2689F2DD26A28A2700CA1724 /* scheduler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = scheduler.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2689F2E026A28A2700CA1724 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -139,6 +140,7 @@
 				2689F2EE26A28A2800CA1724 /* LaunchScreen.storyboard */,
 				2689F2F126A28A2800CA1724 /* Info.plist */,
 				2689F2E926A28A2700CA1724 /* scheduler.xcdatamodeld */,
+				25662C2126AD81EB0057E911 /* testOnly.md */,
 			);
 			path = scheduler;
 			sourceTree = "<group>";
