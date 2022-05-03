@@ -7,9 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		260B1C142820F9660056CA9D /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260B1C132820F9660056CA9D /* SignInViewController.swift */; };
+		260B1C162820FD9A0056CA9D /* PetPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260B1C152820FD9A0056CA9D /* PetPhotoViewController.swift */; };
+		260B1C182820FDBB0056CA9D /* PetNameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260B1C172820FDBB0056CA9D /* PetNameViewController.swift */; };
+		260B1C1A2820FDE10056CA9D /* PetInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260B1C192820FDE10056CA9D /* PetInfoViewController.swift */; };
+		260B1C1C2820FE1C0056CA9D /* PetScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260B1C1B2820FE1C0056CA9D /* PetScheduleViewController.swift */; };
+		260B1C1E2820FE410056CA9D /* HumanPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260B1C1D2820FE410056CA9D /* HumanPhotoViewController.swift */; };
+		260B1C202820FE810056CA9D /* HumanInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260B1C1F2820FE810056CA9D /* HumanInfoViewController.swift */; };
 		2689F2E126A28A2700CA1724 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2689F2E026A28A2700CA1724 /* AppDelegate.swift */; };
 		2689F2E326A28A2700CA1724 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2689F2E226A28A2700CA1724 /* SceneDelegate.swift */; };
-		2689F2E526A28A2700CA1724 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2689F2E426A28A2700CA1724 /* ViewController.swift */; };
+		2689F2E526A28A2700CA1724 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2689F2E426A28A2700CA1724 /* HomeViewController.swift */; };
 		2689F2E826A28A2700CA1724 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2689F2E626A28A2700CA1724 /* Main.storyboard */; };
 		2689F2EB26A28A2700CA1724 /* scheduler.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2689F2E926A28A2700CA1724 /* scheduler.xcdatamodeld */; };
 		2689F2ED26A28A2800CA1724 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2689F2EC26A28A2800CA1724 /* Assets.xcassets */; };
@@ -41,10 +48,17 @@
 /* Begin PBXFileReference section */
 		1BC6CC80DA2F5BB050C6DDEB /* Pods-scheduler-schedulerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-scheduler-schedulerUITests.release.xcconfig"; path = "Target Support Files/Pods-scheduler-schedulerUITests/Pods-scheduler-schedulerUITests.release.xcconfig"; sourceTree = "<group>"; };
 		258290CD861B36414F8BD548 /* Pods-scheduler.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-scheduler.release.xcconfig"; path = "Target Support Files/Pods-scheduler/Pods-scheduler.release.xcconfig"; sourceTree = "<group>"; };
+		260B1C132820F9660056CA9D /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		260B1C152820FD9A0056CA9D /* PetPhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetPhotoViewController.swift; sourceTree = "<group>"; };
+		260B1C172820FDBB0056CA9D /* PetNameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetNameViewController.swift; sourceTree = "<group>"; };
+		260B1C192820FDE10056CA9D /* PetInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetInfoViewController.swift; sourceTree = "<group>"; };
+		260B1C1B2820FE1C0056CA9D /* PetScheduleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetScheduleViewController.swift; sourceTree = "<group>"; };
+		260B1C1D2820FE410056CA9D /* HumanPhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HumanPhotoViewController.swift; sourceTree = "<group>"; };
+		260B1C1F2820FE810056CA9D /* HumanInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HumanInfoViewController.swift; sourceTree = "<group>"; };
 		2689F2DD26A28A2700CA1724 /* scheduler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = scheduler.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2689F2E026A28A2700CA1724 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2689F2E226A28A2700CA1724 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2689F2E426A28A2700CA1724 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2689F2E426A28A2700CA1724 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		2689F2E726A28A2700CA1724 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2689F2EA26A28A2700CA1724 /* scheduler.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = scheduler.xcdatamodel; sourceTree = "<group>"; };
 		2689F2EC26A28A2800CA1724 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -106,6 +120,51 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		260B1C0E2820F8DD0056CA9D /* SignUpFlow */ = {
+			isa = PBXGroup;
+			children = (
+				260B1C122820F9040056CA9D /* Views */,
+				260B1C112820F8FC0056CA9D /* ViewModels */,
+				260B1C102820F8F60056CA9D /* Models */,
+				260B1C0F2820F8EA0056CA9D /* ViewControllers */,
+			);
+			path = SignUpFlow;
+			sourceTree = "<group>";
+		};
+		260B1C0F2820F8EA0056CA9D /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				260B1C152820FD9A0056CA9D /* PetPhotoViewController.swift */,
+				260B1C172820FDBB0056CA9D /* PetNameViewController.swift */,
+				260B1C192820FDE10056CA9D /* PetInfoViewController.swift */,
+				260B1C1B2820FE1C0056CA9D /* PetScheduleViewController.swift */,
+				260B1C1D2820FE410056CA9D /* HumanPhotoViewController.swift */,
+				260B1C1F2820FE810056CA9D /* HumanInfoViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		260B1C102820F8F60056CA9D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		260B1C112820F8FC0056CA9D /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		260B1C122820F9040056CA9D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		2689F2D426A28A2700CA1724 = {
 			isa = PBXGroup;
 			children = (
@@ -131,9 +190,11 @@
 		2689F2DF26A28A2700CA1724 /* scheduler */ = {
 			isa = PBXGroup;
 			children = (
+				260B1C0E2820F8DD0056CA9D /* SignUpFlow */,
 				2689F2E026A28A2700CA1724 /* AppDelegate.swift */,
 				2689F2E226A28A2700CA1724 /* SceneDelegate.swift */,
-				2689F2E426A28A2700CA1724 /* ViewController.swift */,
+				2689F2E426A28A2700CA1724 /* HomeViewController.swift */,
+				260B1C132820F9660056CA9D /* SignInViewController.swift */,
 				2689F2E626A28A2700CA1724 /* Main.storyboard */,
 				2689F2EC26A28A2800CA1724 /* Assets.xcassets */,
 				2689F2EE26A28A2800CA1724 /* LaunchScreen.storyboard */,
@@ -373,10 +434,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2689F2E526A28A2700CA1724 /* ViewController.swift in Sources */,
+				260B1C1C2820FE1C0056CA9D /* PetScheduleViewController.swift in Sources */,
+				260B1C1E2820FE410056CA9D /* HumanPhotoViewController.swift in Sources */,
+				2689F2E526A28A2700CA1724 /* HomeViewController.swift in Sources */,
 				2689F2EB26A28A2700CA1724 /* scheduler.xcdatamodeld in Sources */,
+				260B1C1A2820FDE10056CA9D /* PetInfoViewController.swift in Sources */,
 				2689F2E126A28A2700CA1724 /* AppDelegate.swift in Sources */,
+				260B1C142820F9660056CA9D /* SignInViewController.swift in Sources */,
 				2689F2E326A28A2700CA1724 /* SceneDelegate.swift in Sources */,
+				260B1C182820FDBB0056CA9D /* PetNameViewController.swift in Sources */,
+				260B1C162820FD9A0056CA9D /* PetPhotoViewController.swift in Sources */,
+				260B1C202820FE810056CA9D /* HumanInfoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
